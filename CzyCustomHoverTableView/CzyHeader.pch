@@ -1,0 +1,39 @@
+//
+//  CzyHeader.pch
+//  CzyCustomHoverTableView
+//
+//  Created by macOfEthan on 16/12/26.
+//  Copyright © 2016年 macOfEthan. All rights reserved.
+//
+
+#ifndef CzyHeader_pch
+#define CzyHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kCzyFullWidth [UIScreen mainScreen].bounds.size.width
+#define kCzyFullHeight [UIScreen mainScreen].bounds.size.height
+
+#define kCzyWhiteColor [UIColor whiteColor]
+#define kCzyBrownColor [UIColor brownColor]
+#define kCzyClearColor [UIColor clearColor]
+#define kCzyBlackColor [UIColor balckColor]
+#define kCzyRedColor [UIColor redColor]
+
+#define kCzyFont(font) [UIFont systemFontOfSize:font]
+
+#define kCzyRedBirdImage [UIImage imageNamed:@"bird1"]
+#define kCzyBlueBirdImage [UIImage imageNamed:@"bluebird"]
+
+#define kCzyPlaceHolderViewHeight 200
+#define kCzyImageWidth 60
+#define kCzyImageHeight kCzyImageWidth
+
+
+#import "CzyHoverTbVc.h"
+#import "CzyHeaderView.h"
+#import "UIImage+Cliper.h"
+#import "NSObject+CzyShowAlerter.h"
+
+#endif /* CzyHeader_pch */

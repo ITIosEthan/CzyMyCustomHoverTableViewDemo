@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CA55DD1E10E054006D0573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CA55DC1E10E054006D0573 /* main.m */; };
+		06CA55E01E10E054006D0573 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CA55DF1E10E054006D0573 /* AppDelegate.m */; };
+		06CA55E31E10E054006D0573 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CA55E21E10E054006D0573 /* ViewController.m */; };
+		06CA55E61E10E054006D0573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CA55E41E10E054006D0573 /* Main.storyboard */; };
+		06CA55E81E10E054006D0573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CA55E71E10E054006D0573 /* Assets.xcassets */; };
+		06CA55EB1E10E054006D0573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CA55E91E10E054006D0573 /* LaunchScreen.storyboard */; };
+		06CA55F61E10E054006D0573 /* CzyCustomHoverTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CA55F51E10E054006D0573 /* CzyCustomHoverTableViewTests.m */; };
+		06CA56011E10E054006D0573 /* CzyCustomHoverTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CA56001E10E054006D0573 /* CzyCustomHoverTableViewUITests.m */; };
+		06CA56111E10E0B0006D0573 /* CzyHoverTbVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CA56101E10E0B0006D0573 /* CzyHoverTbVc.m */; };
+		06CA56141E10E0BD006D0573 /* CzyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CA56131E10E0BD006D0573 /* CzyHeaderView.m */; };
+		06CA56171E10E200006D0573 /* UIImage+Cliper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CA56161E10E200006D0573 /* UIImage+Cliper.m */; };
+		06CA561D1E112B11006D0573 /* NSObject+CzyShowAlerter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CA561C1E112B11006D0573 /* NSObject+CzyShowAlerter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06CA55F21E10E054006D0573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06CA55D01E10E053006D0573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CA55D71E10E053006D0573;
+			remoteInfo = CzyCustomHoverTableView;
+		};
+		06CA55FD1E10E054006D0573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06CA55D01E10E053006D0573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CA55D71E10E053006D0573;
+			remoteInfo = CzyCustomHoverTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06CA55D81E10E054006D0573 /* CzyCustomHoverTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CzyCustomHoverTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CA55DC1E10E054006D0573 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06CA55DE1E10E054006D0573 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06CA55DF1E10E054006D0573 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06CA55E11E10E054006D0573 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06CA55E21E10E054006D0573 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06CA55E51E10E054006D0573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06CA55E71E10E054006D0573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06CA55EA1E10E054006D0573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06CA55EC1E10E054006D0573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CA55F11E10E054006D0573 /* CzyCustomHoverTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CzyCustomHoverTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CA55F51E10E054006D0573 /* CzyCustomHoverTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CzyCustomHoverTableViewTests.m; sourceTree = "<group>"; };
+		06CA55F71E10E054006D0573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CA55FC1E10E054006D0573 /* CzyCustomHoverTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CzyCustomHoverTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CA56001E10E054006D0573 /* CzyCustomHoverTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CzyCustomHoverTableViewUITests.m; sourceTree = "<group>"; };
+		06CA56021E10E054006D0573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CA560E1E10E06B006D0573 /* CzyHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CzyHeader.pch; sourceTree = "<group>"; };
+		06CA560F1E10E0B0006D0573 /* CzyHoverTbVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CzyHoverTbVc.h; sourceTree = "<group>"; };
+		06CA56101E10E0B0006D0573 /* CzyHoverTbVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CzyHoverTbVc.m; sourceTree = "<group>"; };
+		06CA56121E10E0BD006D0573 /* CzyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CzyHeaderView.h; sourceTree = "<group>"; };
+		06CA56131E10E0BD006D0573 /* CzyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CzyHeaderView.m; sourceTree = "<group>"; };
+		06CA56151E10E200006D0573 /* UIImage+Cliper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cliper.h"; sourceTree = "<group>"; };
+		06CA56161E10E200006D0573 /* UIImage+Cliper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cliper.m"; sourceTree = "<group>"; };
+		06CA561B1E112B11006D0573 /* NSObject+CzyShowAlerter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CzyShowAlerter.h"; sourceTree = "<group>"; };
+		06CA561C1E112B11006D0573 /* NSObject+CzyShowAlerter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CzyShowAlerter.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CA55D51E10E053006D0573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA55EE1E10E054006D0573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA55F91E10E054006D0573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CA55CF1E10E053006D0573 = {
+			isa = PBXGroup;
+			children = (
+				06CA55DA1E10E054006D0573 /* CzyCustomHoverTableView */,
+				06CA55F41E10E054006D0573 /* CzyCustomHoverTableViewTests */,
+				06CA55FF1E10E054006D0573 /* CzyCustomHoverTableViewUITests */,
+				06CA55D91E10E054006D0573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06CA55D91E10E054006D0573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06CA55D81E10E054006D0573 /* CzyCustomHoverTableView.app */,
+				06CA55F11E10E054006D0573 /* CzyCustomHoverTableViewTests.xctest */,
+				06CA55FC1E10E054006D0573 /* CzyCustomHoverTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06CA55DA1E10E054006D0573 /* CzyCustomHoverTableView */ = {
+			isa = PBXGroup;
+			children = (
+				06CA560E1E10E06B006D0573 /* CzyHeader.pch */,
+				06CA560F1E10E0B0006D0573 /* CzyHoverTbVc.h */,
+				06CA56101E10E0B0006D0573 /* CzyHoverTbVc.m */,
+				06CA56121E10E0BD006D0573 /* CzyHeaderView.h */,
+				06CA56131E10E0BD006D0573 /* CzyHeaderView.m */,
+				06CA56151E10E200006D0573 /* UIImage+Cliper.h */,
+				06CA56161E10E200006D0573 /* UIImage+Cliper.m */,
+				06CA561B1E112B11006D0573 /* NSObject+CzyShowAlerter.h */,
+				06CA561C1E112B11006D0573 /* NSObject+CzyShowAlerter.m */,
+				06CA55DE1E10E054006D0573 /* AppDelegate.h */,
+				06CA55DF1E10E054006D0573 /* AppDelegate.m */,
+				06CA55E11E10E054006D0573 /* ViewController.h */,
+				06CA55E21E10E054006D0573 /* ViewController.m */,
+				06CA55E41E10E054006D0573 /* Main.storyboard */,
+				06CA55E71E10E054006D0573 /* Assets.xcassets */,
+				06CA55E91E10E054006D0573 /* LaunchScreen.storyboard */,
+				06CA55EC1E10E054006D0573 /* Info.plist */,
+				06CA55DB1E10E054006D0573 /* Supporting Files */,
+			);
+			path = CzyCustomHoverTableView;
+			sourceTree = "<group>";
+		};
+		06CA55DB1E10E054006D0573 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06CA55DC1E10E054006D0573 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06CA55F41E10E054006D0573 /* CzyCustomHoverTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				06CA55F51E10E054006D0573 /* CzyCustomHoverTableViewTests.m */,
+				06CA55F71E10E054006D0573 /* Info.plist */,
+			);
+			path = CzyCustomHoverTableViewTests;
+			sourceTree = "<group>";
+		};
+		06CA55FF1E10E054006D0573 /* CzyCustomHoverTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06CA56001E10E054006D0573 /* CzyCustomHoverTableViewUITests.m */,
+				06CA56021E10E054006D0573 /* Info.plist */,
+			);
+			path = CzyCustomHoverTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06CA55D71E10E053006D0573 /* CzyCustomHoverTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CA56051E10E054006D0573 /* Build configuration list for PBXNativeTarget "CzyCustomHoverTableView" */;
+			buildPhases = (
+				06CA55D41E10E053006D0573 /* Sources */,
+				06CA55D51E10E053006D0573 /* Frameworks */,
+				06CA55D61E10E053006D0573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CzyCustomHoverTableView;
+			productName = CzyCustomHoverTableView;
+			productReference = 06CA55D81E10E054006D0573 /* CzyCustomHoverTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06CA55F01E10E054006D0573 /* CzyCustomHoverTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CA56081E10E054006D0573 /* Build configuration list for PBXNativeTarget "CzyCustomHoverTableViewTests" */;
+			buildPhases = (
+				06CA55ED1E10E054006D0573 /* Sources */,
+				06CA55EE1E10E054006D0573 /* Frameworks */,
+				06CA55EF1E10E054006D0573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06CA55F31E10E054006D0573 /* PBXTargetDependency */,
+			);
+			name = CzyCustomHoverTableViewTests;
+			productName = CzyCustomHoverTableViewTests;
+			productReference = 06CA55F11E10E054006D0573 /* CzyCustomHoverTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06CA55FB1E10E054006D0573 /* CzyCustomHoverTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CA560B1E10E054006D0573 /* Build configuration list for PBXNativeTarget "CzyCustomHoverTableViewUITests" */;
+			buildPhases = (
+				06CA55F81E10E054006D0573 /* Sources */,
+				06CA55F91E10E054006D0573 /* Frameworks */,
+				06CA55FA1E10E054006D0573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06CA55FE1E10E054006D0573 /* PBXTargetDependency */,
+			);
+			name = CzyCustomHoverTableViewUITests;
+			productName = CzyCustomHoverTableViewUITests;
+			productReference = 06CA55FC1E10E054006D0573 /* CzyCustomHoverTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CA55D01E10E053006D0573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = macOfEthan;
+				TargetAttributes = {
+					06CA55D71E10E053006D0573 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					06CA55F01E10E054006D0573 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06CA55D71E10E053006D0573;
+					};
+					06CA55FB1E10E054006D0573 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06CA55D71E10E053006D0573;
+					};
+				};
+			};
+			buildConfigurationList = 06CA55D31E10E053006D0573 /* Build configuration list for PBXProject "CzyCustomHoverTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06CA55CF1E10E053006D0573;
+			productRefGroup = 06CA55D91E10E054006D0573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06CA55D71E10E053006D0573 /* CzyCustomHoverTableView */,
+				06CA55F01E10E054006D0573 /* CzyCustomHoverTableViewTests */,
+				06CA55FB1E10E054006D0573 /* CzyCustomHoverTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06CA55D61E10E053006D0573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CA55EB1E10E054006D0573 /* LaunchScreen.storyboard in Resources */,
+				06CA55E81E10E054006D0573 /* Assets.xcassets in Resources */,
+				06CA55E61E10E054006D0573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA55EF1E10E054006D0573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA55FA1E10E054006D0573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CA55D41E10E053006D0573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CA55E31E10E054006D0573 /* ViewController.m in Sources */,
+				06CA56141E10E0BD006D0573 /* CzyHeaderView.m in Sources */,
+				06CA56171E10E200006D0573 /* UIImage+Cliper.m in Sources */,
+				06CA55E01E10E054006D0573 /* AppDelegate.m in Sources */,
+				06CA561D1E112B11006D0573 /* NSObject+CzyShowAlerter.m in Sources */,
+				06CA56111E10E0B0006D0573 /* CzyHoverTbVc.m in Sources */,
+				06CA55DD1E10E054006D0573 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA55ED1E10E054006D0573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CA55F61E10E054006D0573 /* CzyCustomHoverTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA55F81E10E054006D0573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CA56011E10E054006D0573 /* CzyCustomHoverTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06CA55F31E10E054006D0573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CA55D71E10E053006D0573 /* CzyCustomHoverTableView */;
+			targetProxy = 06CA55F21E10E054006D0573 /* PBXContainerItemProxy */;
+		};
+		06CA55FE1E10E054006D0573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CA55D71E10E053006D0573 /* CzyCustomHoverTableView */;
+			targetProxy = 06CA55FD1E10E054006D0573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06CA55E41E10E054006D0573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CA55E51E10E054006D0573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06CA55E91E10E054006D0573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CA55EA1E10E054006D0573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06CA56031E10E054006D0573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06CA56041E10E054006D0573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06CA56061E10E054006D0573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CzyCustomHoverTableView/CzyHeader.pch";
+				INFOPLIST_FILE = CzyCustomHoverTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyCustomHoverTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06CA56071E10E054006D0573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CzyCustomHoverTableView/CzyHeader.pch";
+				INFOPLIST_FILE = CzyCustomHoverTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyCustomHoverTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06CA56091E10E054006D0573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CzyCustomHoverTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyCustomHoverTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CzyCustomHoverTableView.app/CzyCustomHoverTableView";
+			};
+			name = Debug;
+		};
+		06CA560A1E10E054006D0573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CzyCustomHoverTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyCustomHoverTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CzyCustomHoverTableView.app/CzyCustomHoverTableView";
+			};
+			name = Release;
+		};
+		06CA560C1E10E054006D0573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CzyCustomHoverTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyCustomHoverTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CzyCustomHoverTableView;
+			};
+			name = Debug;
+		};
+		06CA560D1E10E054006D0573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CzyCustomHoverTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CzyCustomHoverTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CzyCustomHoverTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06CA55D31E10E053006D0573 /* Build configuration list for PBXProject "CzyCustomHoverTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CA56031E10E054006D0573 /* Debug */,
+				06CA56041E10E054006D0573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CA56051E10E054006D0573 /* Build configuration list for PBXNativeTarget "CzyCustomHoverTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CA56061E10E054006D0573 /* Debug */,
+				06CA56071E10E054006D0573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06CA56081E10E054006D0573 /* Build configuration list for PBXNativeTarget "CzyCustomHoverTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CA56091E10E054006D0573 /* Debug */,
+				06CA560A1E10E054006D0573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06CA560B1E10E054006D0573 /* Build configuration list for PBXNativeTarget "CzyCustomHoverTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CA560C1E10E054006D0573 /* Debug */,
+				06CA560D1E10E054006D0573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06CA55D01E10E053006D0573 /* Project object */;
+}
