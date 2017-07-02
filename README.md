@@ -161,7 +161,7 @@ CzyHeaderView.m
     
     
 # 效果图
-![image](https://github.com/ITIosEthan/CzyMyCustomHoverTableView/blob/master/czyHoverGif.gif)
+![image](https://github.com/ITIosEthan/CzyMyCustomHoverTableViewDemo/blob/master/czyHoverGif.gif)
     
     
     
